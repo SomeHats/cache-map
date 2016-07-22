@@ -1,6 +1,6 @@
 {
   "name": "cache-map",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A TTL cache with an API compatible with an ES6 Map",
   "main": "lib/CacheMap.js",
   "scripts": {
