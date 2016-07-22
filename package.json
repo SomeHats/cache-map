@@ -6,6 +6,8 @@
   "scripts": {
     "build": "babel --out-dir lib src",
     "flow": "flow check",
+    "lint": "eslint src",
+    "prepublish": "npm run lint && npm run flow && npm run build",
     "test": "npm run flow"
   },
   "repository": {
