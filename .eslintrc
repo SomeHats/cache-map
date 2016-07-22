@@ -1,0 +1,13 @@
+{
+  "env": {
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "rules": {
+    "id-length": [2, { "min": 1, "max": 30 }],
+    "quotes": [2, "single"],
+    "strict": [2, "never"],
+    "new-cap": [0]
+  },
+}
