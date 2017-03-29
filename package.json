@@ -7,8 +7,9 @@
     "build": "babel --out-dir lib src",
     "flow": "flow check",
     "lint": "eslint src",
-    "prepublish": "npm run lint && npm run flow && npm run build",
-    "test": "npm run flow"
+    "prepublish": "npm run test && npm run build",
+    "mocha": "mocha --require babel-register",
+    "test": "npm run lint && npm run flow && npm run mocha"
   },
   "repository": {
     "type": "git",
@@ -24,13 +25,17 @@
   "devDependencies": {
     "babel-cli": "^6.11.4",
     "babel-core": "^6.11.4",
-    "babel-eslint": "^6.1.2",
+    "babel-eslint": "^7.2.1",
     "babel-plugin-syntax-flow": "^6.8.0",
     "babel-plugin-transform-flow-comments": "^6.8.0",
     "babel-preset-node6": "^11.0.0",
+    "babel-register": "^6.24.0",
+    "chai": "^3.5.0",
     "eslint": "^3.1.1",
-    "eslint-config-airbnb-base": "^4.0.2",
-    "eslint-plugin-import": "^1.11.1",
-    "flow-bin": "^0.29.0"
+    "eslint-config-airbnb-base": "^11.1.2",
+    "eslint-plugin-import": "^2.2.0",
+    "flow-bin": "^0.42.0",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0"
   }
 }
