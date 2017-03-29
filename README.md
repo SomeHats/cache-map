@@ -2,13 +2,13 @@
 
 ## CacheMap
 
-[src/CacheMap.js:21-172](https://github.com/SomeHats/cache-map/blob/8b56d14b68b2553bb65b1043e0190d11ee5170ee/src/CacheMap.js#L21-L172 "Source code on GitHub")
+[src/CacheMap.js:21-172](https://github.com/SomeHats/cache-map/blob/8f8fb5ee034c3a95589a6fdd11025baf9def1010/src/CacheMap.js#L21-L172 "Source code on GitHub")
 
 A TTL cache with an API compatible with an ES6 Map. Requires node 6+.
 
 ### constructor
 
-[src/CacheMap.js:39-59](https://github.com/SomeHats/cache-map/blob/8b56d14b68b2553bb65b1043e0190d11ee5170ee/src/CacheMap.js#L39-L59 "Source code on GitHub")
+[src/CacheMap.js:39-59](https://github.com/SomeHats/cache-map/blob/8f8fb5ee034c3a95589a6fdd11025baf9def1010/src/CacheMap.js#L39-L59 "Source code on GitHub")
 
 **Parameters**
 
@@ -22,7 +22,7 @@ Returns **void**
 
 ### clear
 
-[src/CacheMap.js:64-66](https://github.com/SomeHats/cache-map/blob/8b56d14b68b2553bb65b1043e0190d11ee5170ee/src/CacheMap.js#L64-L66 "Source code on GitHub")
+[src/CacheMap.js:64-66](https://github.com/SomeHats/cache-map/blob/8f8fb5ee034c3a95589a6fdd11025baf9def1010/src/CacheMap.js#L64-L66 "Source code on GitHub")
 
 Removes all key/value pairs from the Map object.
 
@@ -30,7 +30,7 @@ Returns **void**
 
 ### delete
 
-[src/CacheMap.js:72-74](https://github.com/SomeHats/cache-map/blob/8b56d14b68b2553bb65b1043e0190d11ee5170ee/src/CacheMap.js#L72-L74 "Source code on GitHub")
+[src/CacheMap.js:72-74](https://github.com/SomeHats/cache-map/blob/8f8fb5ee034c3a95589a6fdd11025baf9def1010/src/CacheMap.js#L72-L74 "Source code on GitHub")
 
 Removes any value associated with that key
 
@@ -42,14 +42,14 @@ Returns **[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 
 ### entries
 
-[src/CacheMap.js:80-87](https://github.com/SomeHats/cache-map/blob/8b56d14b68b2553bb65b1043e0190d11ee5170ee/src/CacheMap.js#L80-L87 "Source code on GitHub")
+[src/CacheMap.js:80-87](https://github.com/SomeHats/cache-map/blob/8f8fb5ee034c3a95589a6fdd11025baf9def1010/src/CacheMap.js#L80-L87 "Source code on GitHub")
 
 Returns **Iterator&lt;\[K, V]>** a new iterator object that contains an array of [key, value] for each element in the
 map that has not expired
 
 ### forEach
 
-[src/CacheMap.js:94-98](https://github.com/SomeHats/cache-map/blob/8b56d14b68b2553bb65b1043e0190d11ee5170ee/src/CacheMap.js#L94-L98 "Source code on GitHub")
+[src/CacheMap.js:94-98](https://github.com/SomeHats/cache-map/blob/8f8fb5ee034c3a95589a6fdd11025baf9def1010/src/CacheMap.js#L94-L98 "Source code on GitHub")
 
 Calls fn once for each non-expired key-value pair in the map object
 
@@ -62,7 +62,7 @@ Returns **void**
 
 ### get
 
-[src/CacheMap.js:104-110](https://github.com/SomeHats/cache-map/blob/8b56d14b68b2553bb65b1043e0190d11ee5170ee/src/CacheMap.js#L104-L110 "Source code on GitHub")
+[src/CacheMap.js:104-110](https://github.com/SomeHats/cache-map/blob/8f8fb5ee034c3a95589a6fdd11025baf9def1010/src/CacheMap.js#L104-L110 "Source code on GitHub")
 
 **Parameters**
 
@@ -73,7 +73,7 @@ expired
 
 ### has
 
-[src/CacheMap.js:115-120](https://github.com/SomeHats/cache-map/blob/8b56d14b68b2553bb65b1043e0190d11ee5170ee/src/CacheMap.js#L115-L120 "Source code on GitHub")
+[src/CacheMap.js:115-120](https://github.com/SomeHats/cache-map/blob/8f8fb5ee034c3a95589a6fdd11025baf9def1010/src/CacheMap.js#L115-L120 "Source code on GitHub")
 
 **Parameters**
 
@@ -83,13 +83,13 @@ Returns **[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 
 ### keys
 
-[src/CacheMap.js:125-129](https://github.com/SomeHats/cache-map/blob/8b56d14b68b2553bb65b1043e0190d11ee5170ee/src/CacheMap.js#L125-L129 "Source code on GitHub")
+[src/CacheMap.js:125-129](https://github.com/SomeHats/cache-map/blob/8f8fb5ee034c3a95589a6fdd11025baf9def1010/src/CacheMap.js#L125-L129 "Source code on GitHub")
 
 Returns **Iterator&lt;K>** a new iterator containing the keys of each non-expired entry in the map
 
 ### set
 
-[src/CacheMap.js:135-138](https://github.com/SomeHats/cache-map/blob/8b56d14b68b2553bb65b1043e0190d11ee5170ee/src/CacheMap.js#L135-L138 "Source code on GitHub")
+[src/CacheMap.js:135-138](https://github.com/SomeHats/cache-map/blob/8f8fb5ee034c3a95589a6fdd11025baf9def1010/src/CacheMap.js#L135-L138 "Source code on GitHub")
 
 Sets the value in the map, with a ttl of Date.now() + map.ttl
 
@@ -102,7 +102,7 @@ Returns **any** the map
 
 ### size
 
-[src/CacheMap.js:143-145](https://github.com/SomeHats/cache-map/blob/8b56d14b68b2553bb65b1043e0190d11ee5170ee/src/CacheMap.js#L143-L145 "Source code on GitHub")
+[src/CacheMap.js:143-145](https://github.com/SomeHats/cache-map/blob/8f8fb5ee034c3a95589a6fdd11025baf9def1010/src/CacheMap.js#L143-L145 "Source code on GitHub")
 
 The number of non-expired key/value pairs in the map
 
@@ -110,13 +110,13 @@ Returns **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 
 ### values
 
-[src/CacheMap.js:150-154](https://github.com/SomeHats/cache-map/blob/8b56d14b68b2553bb65b1043e0190d11ee5170ee/src/CacheMap.js#L150-L154 "Source code on GitHub")
+[src/CacheMap.js:150-154](https://github.com/SomeHats/cache-map/blob/8f8fb5ee034c3a95589a6fdd11025baf9def1010/src/CacheMap.js#L150-L154 "Source code on GitHub")
 
 Returns **Iterator&lt;V>** a new iterator containing the values of each non-expired entry in the map
 
 ### deleteExpired
 
-[src/CacheMap.js:159-163](https://github.com/SomeHats/cache-map/blob/8b56d14b68b2553bb65b1043e0190d11ee5170ee/src/CacheMap.js#L159-L163 "Source code on GitHub")
+[src/CacheMap.js:159-163](https://github.com/SomeHats/cache-map/blob/8f8fb5ee034c3a95589a6fdd11025baf9def1010/src/CacheMap.js#L159-L163 "Source code on GitHub")
 
 Removes every entry from the internal map that has already expired
 
